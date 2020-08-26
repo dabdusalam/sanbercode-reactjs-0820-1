@@ -1,3 +1,4 @@
+
 body{
 	background-image: url("pattern.jpg");
 }
@@ -10,8 +11,9 @@ h1{
 	text-align: center;
 }
 header{
-background-color: #ffffff;
-display: flex;
+		top: 0;
+		background-color: #ffffff;
+		display: flex;
 }
 nav {
 	list-style: none;
