@@ -1,0 +1,28 @@
+body{
+	background-image: url("pattern.jpg");
+}
+section{
+	background-color: #ffffff;
+	margin-right:150px; 
+	margin-left: 150px;
+}
+h1{
+	text-align: center;
+}
+header{
+background-color: #ffffff;
+display: flex;
+}
+nav {
+	list-style: none;
+	flex: 1;
+	text-align: right;
+	float:right;
+}
+
+footer{
+	background-color: black;
+	text-align: center;
+
+}
+
