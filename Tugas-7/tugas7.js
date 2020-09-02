@@ -20,9 +20,23 @@ class Animal {
     // Code class di sini
 }
 class Ape extends Animal{
-
+	constructor(nama,ape){
+		super(nama);
+		this.ape = ape
+	}
+	yell(){
+		return 'Auooo';
+	}
 }
-class 
+class Frog extends Animal{
+	constructor(nama,Frog){
+		super(nama);
+		this.Frog = Frog
+	}
+	jump(){
+		return 'hop hop';
+	}
+}
 
  //RELASE0
 var sheep = new Animal("shaun");
